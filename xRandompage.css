@@ -1,0 +1,43 @@
+div{
+    width: auto;
+    height: 20vh;
+}
+.backhomepage{
+    width: auto;
+}
+.image3{
+    background-image: url('zPerson\ 5\ far\ view.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+/* Style for the button */
+#buttonContainer {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    align-items: center; /* Align items vertically at the center */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+#buttonContainer button {
+        background: linear-gradient(to bottom, #fefefe, #000000);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 15px;
+        border: none;
+        border-radius: 20px;
+        transition: background-color 0.5s ease;
+        text-decoration: none;
+}
+
+#buttonContainer button:hover {
+    background-color: #2e6fe6; /* Darker color on hover */
+}

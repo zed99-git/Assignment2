@@ -1,0 +1,38 @@
+div{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    width: 15%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    background: linear-gradient(to bottom, #fefefe, #000000);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+}
+h1{
+    font-size: 100px;
+}
+p{
+    word-spacing: 5px;
+    font-size: 20px;
+    font-family: cursive;
+ }
+
+

@@ -1,0 +1,46 @@
+button{
+    background: black;
+}
+a{
+    background: linear-gradient(to bottom, #fefefe, #000000);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+  }
+  img{
+    margin-top: 100px;
+  }
+  div{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+body{
+    background-color: black;
+  }
+.imgbackground{
+  background-image: url('zwelcome\ home.jpg');
+  background-size: cover;
+  animation: riseBackground 100s infinite linear;
+}
+
+@keyframes riseBackground {
+  10% {
+    background-position: 10% 50%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+}
+.audio-controls {
+    width: auto;
+  }

@@ -1,0 +1,42 @@
+body{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+canvas {
+    background-image: url('zTreeWallpaper.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 60vh;
+    animation: BackgroundtoRight 15s infinite linear;
+} 
+  @keyframes BackgroundtoRight {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+div{
+    height: 10vh;
+}
+button{
+    background: linear-gradient(to bottom, #5398ff, #fcfcfc);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+  }
+  p{
+    color: white;
+  }

@@ -1,0 +1,120 @@
+body{
+  margin: 0px;
+}
+header{ 
+  width: 1440px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('zFunhouse.jpg');
+  background-position-x: center;
+  background-position-y: 150;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header div.container1{
+  width: 10%;
+  height: 500px;
+  right: 180px;
+  position: relative;
+  display: inline-block;
+}
+header div.container2{
+  width: 50%;
+  height: 200px;
+  text-align: left;
+  margin:50px;
+  position: relative;
+  display: inline-block;
+}
+header div.container3{
+  width: 10%;
+  height: 500px;
+  left: 239px;
+  position: relative;
+  display: inline-block;
+}
+header div.container1 img.side1{
+	width: 150px;
+  height: 3000px;
+	position: absolute;
+	top: 1px;
+}
+header div.container3 img.side2{
+	width: 150px;
+  height: 3000px;
+	position: absolute;
+	top: 1px;
+}
+#hello{
+  display: block;
+  -webkit-user-select: none;
+  margin: auto;
+  background-color: hsl(0, 0%, 90%);
+}
+#Welcome{
+  bottom:450px;
+  left: 50px;
+}
+.container{
+  position: relative; /*it establishes a new stacking context, and elements within it can be layered using z-index. IDK why it still works without z-index*/
+  margin: 20px;
+  padding: 20px;
+}
+  h1 {
+    font-size: 100px;
+    color: transparent;
+    background: linear-gradient(150deg, violet,  red,yellow, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% 100%;
+    position: relative;
+  }
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.backgroundimage{
+  position: relative;
+  background-image: url('zMain\ clown.jpg');
+  background-size: cover;
+  width: fit-content;
+  margin-top: 270px;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 30lvh;
+}
+.links{
+  background: linear-gradient(to bottom, #fefefe, #000000);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.link{
+  height: 200px;
+}
+p{
+   word-spacing: 5px;
+   font-size: larger;
+   font-family: cursive;
+}

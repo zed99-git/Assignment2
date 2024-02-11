@@ -1,0 +1,80 @@
+.key1{  
+    background-color: black;
+}
+.key1 h1{
+    color: white;
+    font-size: 100px;
+}
+.key2{
+  background: linear-gradient(to bottom, #fefefe, #000000);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+.key3{
+  background: linear-gradient(to bottom, #fefefe, #000000);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+.key5{
+    background-image: url('zFondo\ cursed.jpg');
+    background-size: cover;
+    animation: riseBackground 200s ease;
+} 
+  @keyframes riseBackground {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+div{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    left: 50px;
+}
+button{
+  background: linear-gradient(to bottom, #fefefe, #000000);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+#buttonContainer{
+  display: none;
+}
+#ButtonContainer{
+  font-size: 20px;
+}
+#final{
+width: 100%;
+}
